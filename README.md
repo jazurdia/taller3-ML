@@ -20,6 +20,14 @@ Este taller explora el uso de MLFlow para el seguimiento de experimentos de mach
    uv pip install .
    ```
 
+# Preparacion del servidor de monitoreo. 
+
+   En una terminal, a nivel del folder del proyecto, ejecutar el siguiente comando:
+
+   ```powershell
+   mlflow server --host 127.0.0.1 --port 8080 --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
+   ```
+
 ## Uso
 1. Inicia el servidor de MLFlow (opcional, si quieres ver la UI):
    ```powershell

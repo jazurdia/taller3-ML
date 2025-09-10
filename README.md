@@ -38,3 +38,13 @@ Este taller explora el uso de MLFlow para el seguimiento de experimentos de mach
 ## Notas
 - El taller incluye generación de datos sintéticos, entrenamiento de modelos y registro de experimentos en MLFlow.
 - Puedes consultar la documentación oficial de MLFlow para más detalles: https://mlflow.org/docs/latest/index.html
+
+## Evidencias
+Las siguientes capturas muestran los experimentos registrados en MLFlow:
+
+![Experiments](screenshots/1.png)  
+![Info general](screenshots/2.png)  
+![Parámetros y métricas MLflow](screenshots/3.png)
+
+## Conclusión
+El taller permitió comprobar la facilidad con la que MLFlow se integra con scikit-learn para registrar métricas, parámetros y modelos. La automatización que ofrece al trabajar con pipelines simplifica el seguimiento de experimentos y evita la pérdida de información relevante. De esta forma, se confirma el valor de MLFlow como herramienta práctica para proyectos que requieren trazabilidad, comparación de modelos y control de versiones, tanto en entornos académicos como profesionales.
